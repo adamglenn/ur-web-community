@@ -23,13 +23,13 @@ blueprint:
     copy: "Copy."
   config:
     is_main: false
-    _id: "hero"
-    _aria_labelled_by: "hero"
-  _layout:
+    id: "hero"
+    aria_labelled_by: "hero"
+  layout:
     is_fluid: false
     align: "start"
     padding_y: "py-8"
-  _styles:
+  styles:
     vibe: 
     section:
       background_color: "bg-dark"
