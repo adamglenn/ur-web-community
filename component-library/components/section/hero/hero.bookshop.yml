@@ -25,7 +25,7 @@ blueprint:
     is_main: false
     id: "hero"
     aria_labelled_by: "hero"
-  layout:
+  _layout:
     is_fluid: false
     align: "start"
     padding_y: "py-8"
