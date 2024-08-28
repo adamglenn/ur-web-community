@@ -3,7 +3,7 @@ paths:
   collections: content
   layouts: layouts
   static: static
-  uploads: static/uploads
+  uploads: assets/uploads
   includes: layouts
   source: ''
   archetypes: archetypes
@@ -22,6 +22,10 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+_inputs:
+  content_blocks:
+    style:
+      hidden: true
 _structures:
   column_blocks:
     style: select
