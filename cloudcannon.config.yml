@@ -1,0 +1,38 @@
+paths:
+  data: data
+  collections: content
+  layouts: layouts
+  static: static
+  uploads: static/uploads
+  includes: layouts
+  source: ''
+  archetypes: archetypes
+  assets: assets
+  content: content
+  pages: content
+  publish: public
+  config: ''
+collections_config:
+  pages:
+    path: content
+    output: true
+    filter: strict
+    parse_branch_index: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+_structures:
+  column_blocks:
+    style: select
+    values: []
+  content_blocks:
+    style: select
+    values: []
+data_config: {}
+editor:
+  default_path:
+timezone: US/Eastern
+markdown:
+  engine:
+  options:
