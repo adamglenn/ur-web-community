@@ -18,11 +18,11 @@ content_blocks:
       is_main: false
       id: "hero"
       aria_labelled_by: "hero"
-    layout:
+    _layout:
       is_fluid: false
       align: "start"
       margin_y: "my-8"
-    styles:
+    _styles:
       vibe: 
       section:
         background_color: "bg-dark"
