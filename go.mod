@@ -1,9 +1,8 @@
-module site.local
+module hugo
 
 go 1.22.2
 
 require (
 	github.com/cloudcannon/bookshop/hugo/v3 v3.10.0 // indirect
-	github.com/wvuweb/wvu-ds-v3-bookshop-components v0.0.0-20240828051321-2b0b5d1a704d // indirect
 	github.com/wvuweb/wvu-ds-v3-hugo v0.0.0-20240828022702-9604d90b2c3f // indirect
 )
