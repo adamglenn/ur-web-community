@@ -129,7 +129,7 @@ content_blocks:
         alt:
       heading: Test Heading
       columns:
-        - components:
+        - column_blocks:
             - _bookshop_name: column/stat
               elements:
                 pre: According to Niche

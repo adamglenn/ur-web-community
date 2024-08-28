@@ -15,7 +15,7 @@ blueprint:
       alt:
     heading: Test Heading
     columns:
-      - components: [bookshop:structure:column_blocks]
+      - column_blocks: [bookshop:structure:column_blocks]
         config:
           column_widths:
             xxl:
