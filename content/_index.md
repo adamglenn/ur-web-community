@@ -4,105 +4,158 @@ content_blocks:
   - _bookshop_name: section/hero
     elements:
       background_image:
-        src: "/uploads/girls-working-on-computers.jpg"
         alt:
+        src: /uploads/girls-working-on-computers.jpg
       super_heading:
-        icon: "location-dot"
-        label: "Label"
-        text: "Super Heading"
-      heading: "Hello, world!"
-      subheading: "Subheading"
-      lead: "Lead text."
-      copy: "Copy."
+        icon: location-dot
+        label: Label
+        text: Super Heading
+      heading: Hello, world!
+      subheading: Subheading
+      lead: Lead text.
+      copy: Copy.
     config:
       is_main: false
-      id: "hero"
-      aria_labelled_by: "hero"
+      id: hero
+      aria_labelled_by: hero
     layout:
       is_fluid: false
-      align: "start"
-      margin_y: "my-8"
+      align: start
+      padding_y: py-8
+      margin_y: my-8
     styles:
-      vibe: 
+      vibe:
       section:
-        background_color: "bg-dark"
-        text_color: "text-white"
+        background_color: bg-dark
+        text_color: text-white
         pattern:
         texture:
         blend_mode:
         filter:
+      background_layers:
+        photo: {}
+        pattern:
+          option: wvu-bg-topo-dark
+          color: bg-dark
+        texture:
+          color: wvu-bg-texture
       super_heading:
         label:
-          font: "wvu-shout"
+          font: wvu-shout
           case:
-          color: "text-wvu-gold"
+          color: text-wvu-gold
         text:
-          font: "helvetica-neue-light"
-          color: 
-          tracking: 
+          font: helvetica-neue-light
+          color:
+          tracking:
       heading:
-        font: "wvu-shout"
-        color: 
-        decoration: "wvu-bar"
+        font: wvu-shout
+        color:
+        decoration: wvu-bar
       subheading:
-        font: "helvetica-neue-bold"
-        size: "h1"
-        weight: 
+        font: helvetica-neue-bold
+        size: h1
+        weight:
       lead:
-        font: "helvetica-neue-light"
-        size: "fs-3"
+        font: helvetica-neue-light
+        size: fs-3
       copy:
         font:
   - _bookshop_name: section/hero
     elements:
       background_image:
-        src:
         alt:
+        src:
       super_heading:
-        icon: "location-dot"
-        label: "Label"
-        text: "Super Heading"
-      heading: "Hello, world! Test"
-      subheading: "Subheading"
-      lead: "Lead text."
-      copy: "Copy."
+        icon: location-dot
+        label: Label
+        text: Super Heading
+      heading: Hello, world! Test
+      subheading: Subheading
+      lead: Lead text.
+      copy: Copy.
     config:
       is_main: false
-      id: "hero"
-      aria_labelled_by: "hero"
+      id: hero
+      aria_labelled_by: hero
     layout:
       is_fluid: false
-      align: "start"
-      margin_y: "my-8"
+      align: start
+      padding_y: py-8
+      margin_y: my-8
     styles:
-      vibe: 
+      vibe:
       section:
-        background_color: "bg-dark"
-        text_color: "text-white"
+        background_color: bg-dark
+        text_color: text-white
         pattern:
         texture:
         blend_mode:
         filter:
+      background_layers:
+        photo: {}
+        pattern:
+          option: wvu-bg-topo-dark
+          color: bg-dark
+        texture:
+          color: wvu-bg-texture
       super_heading:
         label:
-          font: "wvu-shout"
+          font: wvu-shout
           case:
-          color: "text-wvu-gold"
+          color: text-wvu-gold
         text:
-          font: "helvetica-neue-light"
-          color: 
-          tracking: 
+          font: helvetica-neue-light
+          color:
+          tracking:
       heading:
-        font: "wvu-shout"
-        color: 
-        decoration: "wvu-bar"
+        font: wvu-shout
+        color:
+        decoration: wvu-bar
       subheading:
-        font: "helvetica-neue-bold"
-        size: "h1"
-        weight: 
+        font: helvetica-neue-bold
+        size: h1
+        weight:
       lead:
-        font: "helvetica-neue-light"
-        size: "fs-3"
+        font: helvetica-neue-light
+        size: fs-3
       copy:
         font:
+  - _bookshop_name: section/columns
+    elements:
+      background_image:
+        src: >-
+          https://designsystemv2demo.sandbox.wvu.edu/files/e4742958-d585-48b8-ade6-7f45ab929897/1780x1780
+        alt:
+      heading: Test Heading
+      columns:
+        - components:
+            - _bookshop_name: column/stat
+              elements:
+                pre: According to Niche
+                stat: 93%
+                post: job placement rate (two years after graduation)
+                source:
+              config:
+                source:
+                  disable: false
+              styles:
+                container:
+                  margin_bottom: mb-4
+                stat:
+                  font: wvu-shout
+                  size: display-1
+                  color: text-wvu-gold
+                divider:
+          config:
+            column_widths:
+              xxl:
+              xl:
+              lg:
+              md:
+              sm: col
+      postscript: Test Postscript
+    config:
+    layout:
+    styles:
 ---
