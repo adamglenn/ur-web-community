@@ -23,9 +23,8 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
 _inputs:
-  content_blocks:
-    style:
-      hidden: true
+  background_color:
+    hidden: true
 _structures:
   column_blocks:
     style: select
