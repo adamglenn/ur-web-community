@@ -9,7 +9,7 @@
 {{ $bodyStyles := "" }}
 
 {{ if and .styles .styles.background_c }}{{ $backgroundColor = .styles.background_c }}{{ end }}
-{{ if and .styles .styles.text_c }}{{ $backgroundColor = .styles.text_c }}{{ end }}
+{{ if and .styles .styles.text_c }}{{ $textColor = .styles.text_c }}{{ end }}
 
 {{ if and .content.background_image .content.background_image.image }}{{ $image = .content.background_image.image }}{{ end }}
 {{ if and .content.background_image .content.background_image.alt }}{{ $image = .content.background_image.alt }}{{ end }}
