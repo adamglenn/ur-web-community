@@ -49,7 +49,7 @@ _inputs:
         label: Dark
         value: bg-dark
       - name: wvu-gold
-        value: WVU Gold
+        label: WVU Gold
         value: bg-wvu-gold
   text_c:
     label: Text Color
