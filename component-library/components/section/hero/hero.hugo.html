@@ -11,8 +11,8 @@
 {{ if and .styles .styles.background_color }}{{ $backgroundColor = .styles.background_color }}{{ end }}
 {{ if and .styles .styles.text_color }}{{ $backgroundColor = .styles.text_color }}{{ end }}
 
-{{ if and .elements.background_image .elements.background_image.image }}{{ $image = .elements.background_image.image }}{{ end }}
-{{ if and .elements.background_image .elements.background_image.alt }}{{ $image = .elements.background_image.alt }}{{ end }}
+{{ if and .content.background_image .content.background_image.image }}{{ $image = .content.background_image.image }}{{ end }}
+{{ if and .content.background_image .content.background_image.alt }}{{ $image = .content.background_image.alt }}{{ end }}
 
 {{ if and .styles .styles.vibe }}
   {{ if eq .styles.vibe "wvu-experience-1" }}
@@ -33,20 +33,20 @@
     <div class="row">
       <div class="col col-md-7 col-xl-6">
         <div>
-          <h2 id="{{ .config.aria_labelledby }}-label" class="{{ $headingStyles }} mb-3">{{ .elements.heading }}</h2>
+          <h2 id="{{ .config.aria_labelledby }}-label" class="{{ $headingStyles }} mb-3">{{ .content.heading }}</h2>
 
-          {{ if .elements.lead }}
-            {{ partial "bookshop" (slice "generic/lead" (dict "text" .elements.lead "styles" $leadStyles)) }}
+          {{ if .content.lead }}
+            {{ partial "bookshop" (slice "generic/lead" (dict "text" .content.lead "styles" $leadStyles)) }}
           {{ end }}
   
-          {{ if .elements.body }}
+          {{ if .content.body }}
             <div class="{{ $bodyStyles }}">
-              {{ .elements.copy | markdownify }}
+              {{ .content.body | markdownify }}
             </div>
           {{ end }}
   
-          {{ if .elements.ctas }}
-            {{ range .elements.ctas }}
+          {{ if .content.ctas }}
+            {{ range .content.ctas }}
               CTA
             {{ end }}
           {{ end }}
