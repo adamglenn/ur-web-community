@@ -3,8 +3,25 @@ title: Home
 content_blocks:
   - _bookshop_name: section/hero
     content:
+      background_image: {}
       heading: My Hero Heading
-      lead: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+      lead: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore.
+    config:
+      is_main: false
+    layout:
+      is_fluid: false
+      align: left
+      vertical_space: py-8
     styles:
       vibe: wvu-experience-1
+      background_c: WVU Gold
+      background_blend_mode: Normal
+      text_c: text-white
+      heading_c: text-white
+      ctas: buttons
+      text_color: '#000000'
+      heading_color: '#000000'
+      background_color: '#000000'
 ---
