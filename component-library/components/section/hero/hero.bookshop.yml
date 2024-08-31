@@ -29,7 +29,7 @@ blueprint:
     is_fluid: false
     align: "start"
     padding_y: "py-8"
-  styles:
+  _styles:
     vibe: 
     section:
       background_color: "bg-dark"
