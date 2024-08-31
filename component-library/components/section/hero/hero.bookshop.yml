@@ -45,10 +45,10 @@ _inputs:
     options:
       allow_empty: false
       values:
-      - name: dark
+      - name: bg-dark
         label: Dark
         value: bg-dark
-      - name: wvu-gold
+      - name: bg-wvu-gold
         label: WVU Gold
         value: bg-wvu-gold
   text_c:
@@ -57,10 +57,10 @@ _inputs:
     options:
       allow_empty: false
       values:
-      - name: dark
+      - name: text-dark
         label: Dark
         value: text-dark
-      - name: wvu-gold
+      - name: text-wvu-gold
         label: WVU Gold
         value: text-wvu-gold
   vibe:
