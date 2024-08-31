@@ -21,7 +21,4 @@ content_blocks:
       text_c: text-white
       heading_c: text-white
       ctas: buttons
-      text_color: '#000000'
-      heading_color: '#000000'
-      background_color: '#000000'
 ---
