@@ -15,10 +15,10 @@ content_blocks:
       align: left
       vertical_space: py-8
     styles:
-      vibe: wvu-experience-1
-      background_c: WVU Gold
+      vibe: down-to-business-1
+      background_c: Dark
       background_blend_mode: Normal
-      text_c: text-white
+      text_c: WVU Gold
       heading_c: text-white
       ctas: buttons
 ---
