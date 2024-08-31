@@ -30,7 +30,7 @@
   {{ end }}
 {{ end }}
 
-<main id="{{ .config.id }}" class="position-relative py-8 {{ $backgroundColor }} {{ $textColor }}" aria-labelledby="{{ .config.aria_labelledby }}-label">
+<main id="{{ .config.id }}" class="position-relative py-8 {{ .styles.background_c }} {{ .styles.text_c }}" aria-labelledby="{{ .config.aria_labelledby }}-label">
   {{ partial "bookshop_partial" (slice "section_background" (dict "image" $image "blendMode" $blendMode "alt" $alt)) }}
   <div class="container position-relative {{ .layout.padding_y }}">
     <div class="row">
