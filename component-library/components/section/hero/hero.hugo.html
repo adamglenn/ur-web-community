@@ -1,5 +1,5 @@
-{{ $backgroundColor := "" }}
-{{ $textColor := "" }}
+{{ $backgroundColor := "bg-dark" }}
+{{ $textColor := "text-dark" }}
 {{ $image := "" }}
 {{ $blendMode := "" }}
 {{ $alt := "" }}
@@ -17,10 +17,13 @@
 {{ if and .styles .styles.vibe }}
   {{ if eq .styles.vibe "wvu-experience-1" }}
     {{ $headingStyles = "display-2 oliviar-black text-uppercase" }}
-    {{ $leadStyles = "h4 iowan-old-style-black-italic" }}
+    {{ $leadStyles = "h3 iowan-old-style-black-italic" }}
   {{ else if eq .styles.vibe "down-to-business-1" }}
     {{ $headingStyles = "display-2 wvu-shout" }}
-    {{ $leadStyles = "h4 iowan-old-style-black-italic" }}
+    {{ $leadStyles = "h3 iowan-old-style-black-italic" }}
+  {{ else if eq .styles.vibe "nostalgic-1" }}
+    {{ $headingStyles = "display-2 oliviar-black" }}
+    {{ $leadStyles = "h3 helvetica-neue-light" }}
   {{ else }}
     {{ $headingStyles = "display-2 wvu-shout text-uppercase" }}
     {{ $leadStyles = "h4 helvetica-neue-light" }}
