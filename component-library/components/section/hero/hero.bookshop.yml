@@ -45,10 +45,10 @@ _inputs:
       allow_empty: false
       values:
         - name: WVU Experience 1
-          id: wvu_experience_1
+          id: wvu-experience-1
         - name: Down to Business 1
-          id: wvu_experience_1
+          id: down-to-business-1
         - name: Discovery 1
-          id: wvu_experience_1
+          id: discovery-1
         - name: Nostalgic 1
-          id: wvu_experience_1
+          id: nostalgic-1
