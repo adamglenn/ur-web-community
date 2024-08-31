@@ -15,7 +15,7 @@ content_blocks:
       align: left
       vertical_space: py-8
     styles:
-      vibe: Down to Business 1
+      vibe: nostalgic-1
       background_c: bg-dark
       background_blend_mode: Normal
       text_c: text-white
