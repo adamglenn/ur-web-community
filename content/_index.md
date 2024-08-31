@@ -8,17 +8,4 @@ content_blocks:
       lead: >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore.
-    config:
-      is_main: false
-    layout:
-      is_fluid: false
-      align: left
-      vertical_space: py-8
-    styles:
-      vibe: down-to-business-1
-      background_c: Dark
-      background_blend_mode: Normal
-      text_c: WVU Gold
-      heading_c: text-white
-      ctas: buttons
 ---
