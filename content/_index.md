@@ -16,7 +16,7 @@ content_blocks:
       vertical_space: py-8
     styles:
       vibe: wvu-experience-1
-      background_c: WVU Gold
+      background_c: bg-wvu-bold
       background_blend_mode: Normal
       text_c: text-white
       heading_c: text-white
