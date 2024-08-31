@@ -40,7 +40,7 @@ preview:
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   background_c:
-    name: Background Color
+    label: Background Color
     type: select
     options:
       allow_empty: false
@@ -49,6 +49,16 @@ _inputs:
         value: bg-dark
       - name: WVU Gold
         value: bg-wvu-gold
+  text_c:
+    label: Text Color
+    type: select
+    options:
+      allow_empty: false
+      values:
+      - name: Dark
+        value: text-dark
+      - name: WVU Gold
+        value: text-wvu-gold
   vibe:
     type: select
     options:
