@@ -1,5 +1,5 @@
-{{ $backgroundColor := "bg-dark" }}
-{{ $textColor := "text-white" }}
+{{ $backgroundColor := "Dark" }}
+{{ $textColor := "White" }}
 {{ $image := "" }}
 {{ $blendMode := "" }}
 {{ $alt := "" }}
@@ -8,8 +8,8 @@
 {{ $leadStyles := "" }}
 {{ $bodyStyles := "" }}
 
-{{ if and .styles .styles.background_color }}{{ $backgroundColor = .styles.background_color }}{{ end }}
-{{ if and .styles .styles.text_color }}{{ $backgroundColor = .styles.text_color }}{{ end }}
+{{ if and .styles .styles.background_c }}{{ $backgroundColor = .styles.background_c }}{{ end }}
+{{ if and .styles .styles.text_c }}{{ $backgroundColor = .styles.text_c }}{{ end }}
 
 {{ if and .content.background_image .content.background_image.image }}{{ $image = .content.background_image.image }}{{ end }}
 {{ if and .content.background_image .content.background_image.alt }}{{ $image = .content.background_image.alt }}{{ end }}
@@ -27,7 +27,7 @@
   {{ end }}
 {{ end }}
 
-<main id="{{ .config.id }}" class="position-relative py-8 bg-dark {{ $textColor }}" aria-labelledby="{{ .config.aria_labelledby }}-label">
+<main id="{{ .config.id }}" class="position-relative py-8 {{ $backgroundColor }} {{ $textColor }}" aria-labelledby="{{ .config.aria_labelledby }}-label">
   {{ partial "bookshop_partial" (slice "section_background" (dict "image" $image "blendMode" $blendMode "alt" $alt)) }}
   <div class="container position-relative {{ .layout.padding_y }}">
     <div class="row">
