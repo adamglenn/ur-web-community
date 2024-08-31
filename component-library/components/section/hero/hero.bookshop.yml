@@ -28,7 +28,7 @@ blueprint:
     vertical_space: py-8
   styles:
     vibe: Down to Business 1
-    background_color: bg-dark
+    background_c: bg-dark
     background_blend_mode: Normal
     text_color: text-white
     heading_color: text-white
@@ -39,16 +39,15 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-  styles:
-    background_color:
-      type: select
-      options:
-        allow_empty: false
-        values:
-        - name: Dark
-          value: bg-dark
-        - name: WVU Gold
-          value: bg-wvu-gold
+  background_c:
+    type: select
+    options:
+      allow_empty: false
+      values:
+      - name: Dark
+        value: bg-dark
+      - name: WVU Gold
+        value: bg-wvu-gold
   vibe:
     type: select
     options:
