@@ -16,7 +16,7 @@ content_blocks:
       vertical_space: py-8
     styles:
       vibe: nostalgic-1
-      background_c: bg-dark
+      background_c: wvu-gold
       background_blend_mode: Normal
       text_c: text-white
       heading_c: text-white
