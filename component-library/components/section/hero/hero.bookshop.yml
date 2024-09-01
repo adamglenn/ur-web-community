@@ -45,9 +45,9 @@ _inputs:
     options:
       allow_empty: false
       values:
-      - name: bg-dark
+      - name: Dark
         id: bg-dark
-      - name: bg-wvu-gold
+      - name: WVU Gold
         id: bg-wvu-gold
   heading_size:
     label: Heading Size
@@ -71,6 +71,8 @@ _inputs:
         id: text-white
       - name: WVU Gold
         id: text-wvu-gold
+      - name: Sunset to Light Blue
+        id: wvu-text-gradent wvu-gradient-sunset-light-blue
   heading_extras:
     label: Heading Extras
     type: multiselect
