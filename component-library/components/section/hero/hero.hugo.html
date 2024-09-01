@@ -17,13 +17,13 @@
 
 {{ if and .styles .styles.vibe }}
   {{ if eq .styles.vibe "wvu-experience-1" }}
-    {{ $headingStyles = "display-2 oliviar-black text-uppercase" }}
+    {{ $headingStyles = "oliviar-black text-uppercase" }}
     {{ $leadStyles = "h3 iowan-old-style-black-italic" }}
   {{ else if eq .styles.vibe "down-to-business-1" }}
-    {{ $headingStyles = "display-2 wvu-shout" }}
+    {{ $headingStyles = "wvu-shout" }}
     {{ $leadStyles = "h3 iowan-old-style-black-italic" }}
   {{ else if eq .styles.vibe "nostalgic-1" }}
-    {{ $headingStyles = "display-2 oliviar-black" }}
+    {{ $headingStyles = "oliviar-black" }}
     {{ $leadStyles = "h3 helvetica-neue-light" }}
   {{ else }}
     {{ $headingStyles = "display-2 wvu-shout text-uppercase" }}
@@ -41,7 +41,7 @@
     <div class="row">
       <div class="col col-md-7 col-xl-6">
         <div>
-          <h2 id="{{ .config.aria_labelledby }}-label" class="{{ .styles.heading_size }} {{ .styles.heading_c }} {{ $headingStyles }} {{ range .styles.heading_extras }}{{ . }} {{ end }} mb-3">{{ .content.heading }}</h2>
+          <h2 id="{{ .config.aria_labelledby }}-label" class="{{ .styles.heading_size }} {{ .styles.heading_c }} {{ $headingStyles }} {{ range .styles.heading_extras }}{{ . }} {{ end }} mb-3" data-text="{{ .content.heading }}">{{ .content.heading }}</h2>
 
           {{ if .content.lead }}
             {{ partial "bookshop" (slice "generic/lead" (dict "text" .content.lead "styles" $leadStyles)) }}
