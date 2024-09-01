@@ -72,7 +72,7 @@ _inputs:
       - name: WVU Gold
         id: text-wvu-gold
       - name: Sunset to Light Blue
-        id: wvu-text-gradent wvu-gradient-sunset-light-blue
+        id: wvu-text-gradient wvu-gradient-sunset-light-blue
   heading_extras:
     label: Heading Extras
     type: multiselect

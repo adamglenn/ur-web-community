@@ -19,7 +19,7 @@ content_blocks:
       bg_image_blend_mode: Normal
       text_c: text-dark
       heading_size: display-1
-      heading_c: wvu-text-gradent wvu-gradient-sunset-light-blue
+      heading_c: wvu-text-gradient wvu-gradient-sunset-light-blue
       heading_extras:
       ctas: buttons
 ---
