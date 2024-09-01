@@ -16,8 +16,11 @@ content_blocks:
     styles:
       vibe: nostalgic-1
       background_c: bg-wvu-gold
-      background_blend_mode: Normal
-      text_c: text-white
+      bg_image_blend_mode: Normal
+      text_c: text-dark
+      heading_size: display-1
       heading_c: text-white
+      heading_extras: wvu-text-echo-outline
       ctas: buttons
+      background_blend_mode: Normal
 ---
