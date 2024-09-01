@@ -14,14 +14,12 @@ content_blocks:
       align: left
       vertical_space: py-8
     styles:
-      vibe: nostalgic-1
+      vibe: wvu-experience-1
       background_c: bg-wvu-gold
       bg_image_blend_mode: Normal
       text_c: text-dark
       heading_size: display-1
-      heading_c: text-dark
+      heading_c: wvu-text-gradent wvu-gradient-sunset-light-blue
       heading_extras:
-        - wvu-text-echo-outline
-        - wvu-text-echo-shadow
       ctas: buttons
 ---
