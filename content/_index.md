@@ -20,6 +20,5 @@ content_blocks:
       text_c: text-dark
       heading_size: display-1
       heading_c: text-white
-      heading_extras: wvu-text-echo-outline
       ctas: buttons
 ---
