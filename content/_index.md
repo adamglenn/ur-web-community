@@ -18,7 +18,10 @@ content_blocks:
       background_c: bg-wvu-gold
       bg_image_blend_mode: Normal
       text_c: text-dark
-      heading_size: display-1
-      heading_c: text-white
+      heading_size: display-2
+      heading_c: text-dark
+      heading_extras:
+        - wvu-text-echo-outline
+        - wvu-text-echo-shadow
       ctas: buttons
 ---
