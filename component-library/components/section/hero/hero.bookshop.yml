@@ -22,16 +22,16 @@ blueprint:
     id:
     aria_labelledby:
   layout:
-    is_fluid: false
-    width:
     align: left
     vertical_space: py-8
   styles:
     vibe: Down to Business 1
     background_c: bg-dark
-    background_blend_mode: Normal
+    bg_image_blend_mode: Normal
     text_c: text-white
+    heading_size: display-2
     heading_c: text-white
+    heading_extras:
     ctas: buttons
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -46,23 +46,43 @@ _inputs:
       allow_empty: false
       values:
       - name: bg-dark
-        label: Dark
-        value: bg-dark
+        id: bg-dark
       - name: bg-wvu-gold
-        label: WVU Gold
-        value: bg-wvu-gold
+        id: bg-wvu-gold
+  heading_size:
+    label: Heading Size
+    type: select
+    options:
+      allow_empty: false
+      values:
+      - name: Display 1
+        id: display-1
+      - name: Display 2
+        id: display-2
+  heading_c:
+    label: Heading Color
+    type: select
+    options:
+      allow_empty: false
+      values:
+      - name: Dark
+        id: text-dark
+      - name: White
+        id: text-white
+      - name: WVU Gold
+        id: text-wvu-gold
   text_c:
     label: Text Color
     type: select
     options:
       allow_empty: false
       values:
-      - name: text-dark
-        label: Dark
-        value: text-dark
-      - name: text-wvu-gold
-        label: WVU Gold
-        value: text-wvu-gold
+      - name: Dark
+        id: text-dark
+      - name: White
+        id: text-white
+      - name: WVU Gold
+        id: text-wvu-gold
   vibe:
     type: select
     options:

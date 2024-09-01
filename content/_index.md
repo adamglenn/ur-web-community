@@ -11,7 +11,6 @@ content_blocks:
     config:
       is_main: false
     layout:
-      is_fluid: false
       align: left
       vertical_space: py-8
     styles:
