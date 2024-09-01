@@ -22,5 +22,4 @@ content_blocks:
       heading_c: text-white
       heading_extras: wvu-text-echo-outline
       ctas: buttons
-      background_blend_mode: Normal
 ---

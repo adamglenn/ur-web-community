@@ -71,6 +71,16 @@ _inputs:
         id: text-white
       - name: WVU Gold
         id: text-wvu-gold
+  heading_extras:
+    label: Heading Extras
+    type: multiselect
+    options:
+      allow_empty: true
+      values:
+      - name: Echo Outline
+        id: wvu-text-echo-outline
+      - name: Echo Shadow
+        id: wvu-text-echo-shadow
   text_c:
     label: Text Color
     type: select
